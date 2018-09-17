@@ -9,3 +9,7 @@ PRODUCT_PACKAGES += \
 # Enable tethering
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.dun.override=0
+
+# World APN list
+PRODUCT_COPY_FILES += \
+    vendor/os9/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
