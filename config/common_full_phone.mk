@@ -12,4 +12,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # World APN list
 PRODUCT_COPY_FILES += \
-    vendor/os9/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
+    vendor/os9/prebuilt/etc/apns-full-conf.xml:system/etc/apns-conf.xml
