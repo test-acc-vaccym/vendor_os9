@@ -28,4 +28,10 @@ $(call inherit-product, vendor/os9/config/main.mk)
 PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true
 
-
+# Extra packages
+PRODUCT_PACKAGES += \
+OmniJaws \
+Terminal \
+WeatherIcons	
+    
+    
