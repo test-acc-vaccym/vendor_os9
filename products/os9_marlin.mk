@@ -23,6 +23,9 @@ $(call inherit-product, vendor/os9/config/common_full_phone.mk)
 # Inherit device configuration
 $(call inherit-product, device/google/marlin/aosp_marlin.mk)
 
+# Google Apps
+$(call inherit-product, vendor/googleapps/googleapps.mk)
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := marlin
 PRODUCT_NAME := os9_marlin
